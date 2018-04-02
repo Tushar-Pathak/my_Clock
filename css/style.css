@@ -1,0 +1,81 @@
+html{
+  background: url('/img/board.jpg');
+  text-align:center;
+  background-size: cover;
+}
+
+.clock{
+  background: rgb(255, 160, 122, 0.7);  
+  height: 25rem;
+  margin:0px auto;
+  width: 25rem;
+  border:30px solid #E9967A;
+  border-radius: 100%;
+  overflow:hidden;
+}
+
+.clock-face{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hand{
+  display: block;
+  background: #000;
+  top: 50%;
+  position:absolute;
+  transform-origin: 100%;
+  transition: all 0.05s;
+  transform: rotate(90deg);
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour-hand{
+  height: 6px;    
+  width: 25%;
+  left: 100px;
+}
+
+.min-hand{
+  height: 6px;  
+  width: 40%;
+  left: 10%;
+}
+
+.sec-hand{
+  height: 2px;  
+  width: 45%;
+  left:5%;
+}
+
+.text{
+  position: absolute;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.twelve{
+  left:48%;
+  top:10%;
+  color:#fff;
+}
+
+.six{
+  left:49%;
+  top:78%;
+  color:#fff;
+}
+
+.nine{
+  left:33.50%;
+  top:44%;
+  color:#fff;
+}
+
+.three{
+  left:65%;
+  top:44%;
+  color:#fff;
+}
